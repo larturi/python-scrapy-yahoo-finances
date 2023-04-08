@@ -1,3 +1,5 @@
+import os
+import json
 import scrapy
     
 class SpiderYahoo(scrapy.Spider):
@@ -7,20 +9,12 @@ class SpiderYahoo(scrapy.Spider):
         'FEEDS': {
             'yahoo.json': {
                 'format': 'json',
+                'overwrite': True,
                 'encoding': 'utf-8',
                 'indent': 4
             }
         }
     }
-    
-    # def start_requests(self):
-    #     headers = {
-    #         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
-    #         'Accept-Language': 'en',
-    #         'Accept-Encoding': 'gzip, deflate, br'
-    #     }
-    #     yield scrapy.Request(url='https://finance.yahoo.com/quote/TECO2.BA', headers=headers, callback=self.parse)
-
 
     def start_requests(self):
         urls = [
