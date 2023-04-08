@@ -30,20 +30,20 @@ class SpiderYahoo(scrapy.Spider):
     def parse(self, response):
     
         keys = [
-            'Previous Close',
-            'Open',
-            'Bid',
-            'Ask',
-            "Day's Range",
-            '52 Week Range',
-            'Avg. Volume',
-            'Market Cap',
-            'Beta (5Y Monthly)',
-            'PE Ratio (TTM)',
-            'EPS (TTM)',
-            'Forward Dividend & Yield',
-            'Ex-Dividend Date',
-            '1y Target Est',
+            'previous_close',
+            'open',
+            'bid',
+            'ask',
+            'days_range',
+            'week_range_52',
+            'avg_volume',
+            'market_cap',
+            'beta_5Y_monthly',
+            'pe_ratio_ttm',
+            'eps_ttm',
+            'forward_dividend_and_yield',
+            'ex_dividend_Date',
+            'target_est_1y',
         ]
         
         values = response.xpath(
@@ -54,6 +54,10 @@ class SpiderYahoo(scrapy.Spider):
         for i in range(len(keys)):
             data[keys[i]] = values[i]
             
+        # Add Volume attribute to object data response
+        volume = response.xpath('//*[@id="quote-summary"]//fin-streamer/text()').get()
+        data['volume'] = volume
+        
         return {
             'link': response.url,
             'data': data,

@@ -1,0 +1,42 @@
+[
+{
+    "link": "https://finance.yahoo.com/quote/TECO2.BA",
+    "data": {
+        "previous_close": "400.85",
+        "open": "401.50",
+        "bid": "416.90 x 0",
+        "ask": "417.90 x 0",
+        "days_range": "392.00 - 418.00",
+        "week_range_52": "196.75 - 509.00",
+        "avg_volume": "127,677",
+        "market_cap": "614.196B",
+        "beta_5Y_monthly": "0.88",
+        "pe_ratio_ttm": "N/A",
+        "eps_ttm": "-97.35",
+        "forward_dividend_and_yield": " - ",
+        "ex_dividend_Date": "N/A (N/A)",
+        "target_est_1y": "455.00",
+        "volume": "60,086"
+    }
+},
+{
+    "link": "https://finance.yahoo.com/quote/TEO",
+    "data": {
+        "previous_close": "5.08",
+        "open": "5.09",
+        "bid": "5.34 x 1100",
+        "ask": "5.55 x 3200",
+        "days_range": "5.06 - 5.47",
+        "week_range_52": "3.72 - 6.85",
+        "avg_volume": "126,203",
+        "market_cap": "2.896B",
+        "beta_5Y_monthly": "0.88",
+        "pe_ratio_ttm": "N/A",
+        "eps_ttm": "-2.29",
+        "forward_dividend_and_yield": "N/A",
+        "ex_dividend_Date": "0.31 (6.18%)",
+        "target_est_1y": "4.38",
+        "volume": "79,894"
+    }
+}
+]
