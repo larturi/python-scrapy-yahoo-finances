@@ -1,0 +1,40 @@
+[
+{
+    "link": "https://finance.yahoo.com/quote/TECO2.BA",
+    "data": {
+        "Previous Close": "400.85",
+        "Open": "401.50",
+        "Bid": "416.90 x 0",
+        "Ask": "417.90 x 0",
+        "Day's Range": "392.00 - 418.00",
+        "52 Week Range": "196.75 - 509.00",
+        "Avg. Volume": "127,677",
+        "Market Cap": "614.196B",
+        "Beta (5Y Monthly)": "0.88",
+        "PE Ratio (TTM)": "N/A",
+        "EPS (TTM)": "-97.35",
+        "Forward Dividend & Yield": " - ",
+        "Ex-Dividend Date": "N/A (N/A)",
+        "1y Target Est": "455.00"
+    }
+},
+{
+    "link": "https://finance.yahoo.com/quote/TEO",
+    "data": {
+        "Previous Close": "5.08",
+        "Open": "5.09",
+        "Bid": "5.34 x 1100",
+        "Ask": "5.55 x 3200",
+        "Day's Range": "5.15 - 5.47",
+        "52 Week Range": "3.72 - 6.85",
+        "Avg. Volume": "126,203",
+        "Market Cap": "2.896B",
+        "Beta (5Y Monthly)": "0.88",
+        "PE Ratio (TTM)": "N/A",
+        "EPS (TTM)": "-2.29",
+        "Forward Dividend & Yield": "N/A",
+        "Ex-Dividend Date": "0.31 (6.18%)",
+        "1y Target Est": "4.38"
+    }
+}
+]
