@@ -1,6 +1,6 @@
 # Scraping Yahoo Finances
 
-## Install Depencences
+## Install depencences:
 
 ```
 pipenv shell
@@ -9,7 +9,7 @@ pipenv install
 
 ```
 
-## Scrapy Crawl Execution
+## Scrapy execution (manual):
 
 #### Generates a json file with bones information
 
@@ -20,7 +20,16 @@ scrapy crawl yahoo
 
 ```
 
-## Flask Server
+## Scrapy execution (cron):
+
+#### Run a cron to generete the json with the data
+
+```
+python cron.py
+
+```
+
+## Flask Server:
 
 #### Exposes an endpoint with the generated data in <http://127.0.0.1:5000/yahoo>
 
